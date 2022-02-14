@@ -1,0 +1,89 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+*:focus:not(:focus-visible){
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+html, body{
+	font-size: 62.5%;
+}
+.container{
+	width: 113.5rem; /*1rem=10px*/
+	margin: 0 auto;
+
+}
+
+.header{
+	display: flex;
+	margin: 6.4rem 0;
+}
+.header .container, .footer .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__menu{
+	display: flex;
+	align-items: center;
+}
+.header__menu ul{
+	display: flex;
+}
+body{
+	background: url('../img/background.jpg');
+}
+.header__logo {
+	width: 7.9rem;
+	height: 2.8rem;
+	margin-right: 3.9rem;
+}
+.header__nav {
+	display: flex;
+}
+.header__nav ul li a{
+	color: #fff;
+
+}
+.header__nav ul li:not(:last-child){
+	margin-right: 2.4rem;
+}
+.header__social {
+}
+.header__social-icon{
+	width: 1.7rem;
+	height: 1.6rem;
+}
+.header__social-icon:not(:last-child){
+	margin-right: 2rem;
+}
+
+.footer{
+	background: #030102;
+	color: #fff;
+	padding: 2rem 0;
+}
+.footer .container{
+
+}
+.footer__menu{
+	padding-left: 0;
+}
+.footer__menu ul{
+	display: flex;
+}
+.footer__menu ul li{
+	list-style: none;
+}
+.footer__menu ul li:not(:last-child){
+	margin-right: 2.5rem;
+}
+.footer__menu ul li a{
+	color: #fff;
+}
